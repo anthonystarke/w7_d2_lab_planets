@@ -1,0 +1,37 @@
+body{
+  background-color:black;
+  color:white;
+
+}
+.planet-details{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+.planet-item{
+  grid-column:auto;
+  color:white;
+  font-size: 1.8em;
+  padding-top:1em;
+
+}
+.planet-image{
+  grid-column:auto;
+  width: 20em;
+  /* height: 8em; */
+}
+
+.planets-menu {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+
+}
+.planet-menu-item{
+  font-size:1.5em;
+  grid-column:auto;
+}
+
+li {
+  list-style-type: none;
+  padding: 0.3em;
+}
